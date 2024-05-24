@@ -8,11 +8,10 @@ const App = () => {
   }
   return (
     <div>
-      <p htmlFor="name">Enter your name: </p>
+      <p>Enter your name: </p>
       <br />
       <input id="name" value={name} onChange={handleNameChange}></input>
         <div id="preview">
-          {/* <label>Hello {name}!</label> */}
           {name && <p>Hello {name}!</p>}
         </div>
     </div>
