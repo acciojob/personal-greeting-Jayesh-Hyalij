@@ -8,7 +8,7 @@ const App = () => {
   }
   return (
     <div>
-      <label htmlFor="name">Enter your name: </label>
+      <p htmlFor="name">Enter your name: </p>
       <br />
       <input id="name" value={name} onChange={handleNameChange}></input>
         <div id="preview">
